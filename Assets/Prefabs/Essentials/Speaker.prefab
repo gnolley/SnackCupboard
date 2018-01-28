@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1891299233393698}
+  m_IsPrefabParent: 1
+--- !u!1 &1891299233393698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4174728020394886}
+  - component: {fileID: 82471350576148064}
+  - component: {fileID: 114143469693369316}
+  m_Layer: 0
+  m_Name: Speaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4174728020394886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891299233393698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.26999995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82471350576148064
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891299233393698}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114143469693369316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891299233393698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e04486b61319149a661c4eaef61a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  console: {fileID: 0}
+  managerCollection: {fileID: 0}
+  intros:
+  - {fileID: 8300000, guid: ebc23a7729d57e449808a8a3abb78917, type: 3}
+  - {fileID: 8300000, guid: 7695dc61099e4f840a6cb2120ab69801, type: 3}
+  - {fileID: 8300000, guid: ab0321b9bc1e028428a5f041dc2a2803, type: 3}
+  - {fileID: 8300000, guid: 7b94b0f24516fb641ab45dfdd9c1d3d8, type: 3}
+  - {fileID: 8300000, guid: c8940572f591cd342b0a71cecf665ae9, type: 3}
+  - {fileID: 8300000, guid: 1745bc878c432a3499514894af7a351c, type: 3}
+  - {fileID: 8300000, guid: 503e89c8ebe583a4898e5f2aff5b709f, type: 3}
+  - {fileID: 8300000, guid: a1a35f6815fe1f547bbafa7dc362c9ff, type: 3}
+  - {fileID: 8300000, guid: 6836417cbb5ab3748a03f1cd69d19700, type: 3}
+  - {fileID: 8300000, guid: fdfd9fcae30adde4c80a188f38b4d7d1, type: 3}
+  failIntros:
+  - {fileID: 8300000, guid: 88630340ba112a941a6cd09143cb8369, type: 3}
+  - {fileID: 8300000, guid: 270de6f04a022b544b69c7fba7c9be2e, type: 3}
+  - {fileID: 8300000, guid: 19b9fce53fa2eb14ea9971bcd59aa9b4, type: 3}
+  verbs:
+  - {fileID: 8300000, guid: 7761d179d8b506e498781247f6d61245, type: 3}
+  - {fileID: 8300000, guid: eaf20db01dcf6e145a727a3de55c4cc3, type: 3}
+  - {fileID: 8300000, guid: 1f86b7a9f6f59cd4fa1981b2419cacbb, type: 3}
+  - {fileID: 8300000, guid: 4016648d96ba48a43b2b2b21a5fa2181, type: 3}
+  adjectives:
+  - {fileID: 8300000, guid: 9a41ac066a066e64ca85b0371a731fec, type: 3}
+  - {fileID: 8300000, guid: 518711ee7ff8cb44484c12b2280261cb, type: 3}
+  - {fileID: 8300000, guid: 248fcebccbde2324d848e53f30ffa387, type: 3}
+  - {fileID: 8300000, guid: a59077c8c76819c40b5d3bb67a197487, type: 3}
+  nouns:
+  - {fileID: 8300000, guid: ad1ed384146a9264daac333b112e4b66, type: 3}
+  - {fileID: 8300000, guid: 46649e5d1b8dded459e7dd49718e725f, type: 3}
+  - {fileID: 8300000, guid: d4da4c13022af1b4ea0b215a141b28c3, type: 3}
+  - {fileID: 8300000, guid: 582be38ebc194c3438eb5639a8d5ea5a, type: 3}

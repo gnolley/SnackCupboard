@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/VRTK/Examples/014_Controller_SnappingObjectsOnGrab.unity
+    guid: f199cdb1d105b444fb643b37c4ea143f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 05591df05e0120441ba9895e2c5b465c
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: ec35233cbb6106b49871b89973452bf5
+  - enabled: 0
+    path: Assets/VRTK/Examples/021_Controller_GrabbingObjectsWithJoints.unity
+    guid: 85f86f7020235d943a21f8692edccf10
+  - enabled: 0
+    path: Assets/VRTK/Examples/025_Controls_Overview.unity
+    guid: b62e5ac17f705524cad1b16219dba697
+  - enabled: 0
+    path: Assets/VRTK/Examples/037_CameraRig_ClimbingFalling.unity
+    guid: 4afe6b510c29b90418f10c26d31329cf
+  - enabled: 0
+    path: Assets/Scenes/GameOver.unity
+    guid: 7ebdeeddd0f6fcf47b133d59ac18e593
+  - enabled: 0
+    path: Assets/Scenes/WinScreen.unity
+    guid: f80dc3d81b2297d4099c22a7f00baa0a
+  - enabled: 0
+    path: Assets/Scenes/ConsoleTest.unity
+    guid: 1c3255690b0076d45a18409346b060f2
